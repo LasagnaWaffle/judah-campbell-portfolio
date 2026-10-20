@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- SAMPLE IMAGE. TODO: REPLACE WITH A REAL SCREENSHOT (1200x900 WebP/JPG). -->
+  <rect width="1200" height="900" fill="#111215"/>
+  <!-- Node graph -->
+  <g stroke="#ffffff" stroke-opacity="0.2" stroke-width="2">
+    <path d="M200 450L400 260L640 330L860 200L1000 420L820 640L560 600L380 700L200 450"/>
+    <path d="M400 260L560 600M640 330L820 640M640 330L560 600"/>
+  </g>
+  <g fill="#1e2125" stroke="#ffffff" stroke-opacity="0.45" stroke-width="2">
+    <circle cx="200" cy="450" r="22"/>
+    <circle cx="400" cy="260" r="22"/>
+    <circle cx="860" cy="200" r="22"/>
+    <circle cx="1000" cy="420" r="22"/>
+    <circle cx="820" cy="640" r="22"/>
+    <circle cx="380" cy="700" r="22"/>
+    <circle cx="560" cy="600" r="22"/>
+  </g>
+  <circle cx="640" cy="330" r="26" fill="#00ff00" fill-opacity="0.85"/>
+  <text x="40" y="860" font-family="ui-monospace, Consolas, monospace" font-size="26" fill="#ffffff" fill-opacity="0.35" letter-spacing="4">SAMPLE IMAGE</text>
+</svg>

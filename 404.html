@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | Judah Campbell</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0f1012">
+  <meta name="color-scheme" content="dark">
+  <!--
+    This page is self-contained. GitHub Pages keeps the missing URL in the
+    address bar, so relative CSS/image paths would break on nested routes.
+  -->
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: #0f1012;
+      color: #e8e9eb;
+    }
+    main { max-width: 36rem; }
+    .mark { display: inline-flex; gap: 4px; margin-bottom: 1.5rem; }
+    .mark span { width: 5px; height: 16px; border-radius: 1px; }
+    .mark span:nth-child(1) { background: #ff0000; }
+    .mark span:nth-child(2) { background: #00ff00; height: 22px; }
+    .mark span:nth-child(3) { background: #0000ff; }
+    p.kicker {
+      font-family: ui-monospace, Consolas, monospace;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      color: #a5aab2;
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 1rem; }
+    p { color: #a5aab2; line-height: 1.6; }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
+    a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 1.25rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #0f1012;
+      background: #e8e9eb;
+    }
+    a.secondary {
+      color: #e8e9eb;
+      background: transparent;
+      border: 1px solid #3b3f46;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p class="kicker">404</p>
+    <h1>Page not found</h1>
+    <p>That URL is not part of this portfolio. Go back to the home page or browse projects.</p>
+    <div class="actions">
+      <a href="index.html" data-home>Home</a>
+      <a class="secondary" href="projects.html" data-projects>Projects</a>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var parts = window.location.pathname.split("/").filter(Boolean);
+      var repo = "judah-campbell-portfolio";
+      var index = parts.indexOf(repo);
+      var base = index === -1 ? "/" : "/" + repo + "/";
+      document.querySelectorAll("[data-home]").forEach(function (link) {
+        link.setAttribute("href", base);
+      });
+      document.querySelectorAll("[data-projects]").forEach(function (link) {
+        link.setAttribute("href", base + "projects.html");
+      });
+    })();
+  </script>
+</body>
+</html>

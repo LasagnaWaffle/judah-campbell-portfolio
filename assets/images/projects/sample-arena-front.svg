@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- SAMPLE IMAGE. TODO: REPLACE WITH A REAL SCREENSHOT (1200x900 WebP/JPG). -->
+  <defs>
+    <radialGradient id="floor" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#24272c"/>
+      <stop offset="1" stop-color="#0f1012"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff0000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff0000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="tiles" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#floor)"/>
+  <rect width="1200" height="900" fill="url(#tiles)"/>
+  <!-- Arena walls -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="3">
+    <polygon points="600,90 1010,310 1010,610 600,830 190,610 190,310"/>
+  </g>
+  <g fill="#2e3238">
+    <rect x="360" y="300" width="90" height="90" rx="6"/>
+    <rect x="760" y="520" width="110" height="70" rx="6"/>
+    <rect x="720" y="250" width="60" height="140" rx="6"/>
+    <rect x="330" y="560" width="140" height="56" rx="6"/>
+  </g>
+  <!-- Player -->
+  <circle cx="600" cy="450" r="140" fill="url(#glow)"/>
+  <circle cx="600" cy="450" r="26" fill="#ff0000"/>
+  <path d="M600 450l130-60" stroke="#ff0000" stroke-width="3" stroke-opacity="0.8" stroke-dasharray="10 8"/>
+  <!-- Enemies -->
+  <g fill="none" stroke="#e8e9eb" stroke-width="4" stroke-opacity="0.7">
+    <polygon points="880,380 900,415 860,415"/>
+    <polygon points="300,470 320,505 280,505"/>
+    <polygon points="640,680 660,715 620,715"/>
+  </g>
+  <text x="40" y="860" font-family="ui-monospace, Consolas, monospace" font-size="26" fill="#ffffff" fill-opacity="0.35" letter-spacing="4">SAMPLE IMAGE</text>
+</svg>

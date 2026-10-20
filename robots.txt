@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# TODO: REPLACE WITH YOUR INFORMATION
+# Update this URL if the GitHub username or repository name is different.
+Sitemap: https://lasagnawaffle.github.io/judah-campbell-portfolio/sitemap.xml

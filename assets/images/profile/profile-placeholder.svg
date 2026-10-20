@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <!-- TODO: REPLACE WITH YOUR INFORMATION. Placeholder profile photo. See README "Profile photo". -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2024"/>
+      <stop offset="1" stop-color="#141518"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#grid)"/>
+  <g fill="#2c3036">
+    <circle cx="400" cy="400" r="150"/>
+    <path d="M140 1000c0-190 116-330 260-330s260 140 260 330z"/>
+  </g>
+  <g font-family="ui-monospace, Consolas, monospace" fill="#8a9099" text-anchor="middle">
+    <text x="400" y="830" font-size="30" letter-spacing="6">PROFILE PHOTO</text>
+    <text x="400" y="878" font-size="22" letter-spacing="2" fill="#6b7078">placeholder, replace me</text>
+  </g>
+</svg>

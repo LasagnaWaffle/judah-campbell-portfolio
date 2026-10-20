@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Local artwork representing this website. Replace with a real screenshot (1200x900 WebP/JPG) if you prefer. -->
+  <rect width="1200" height="900" fill="#0f1012"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  <!-- Browser chrome -->
+  <rect x="80" y="70" width="1040" height="760" rx="16" fill="#181a1e" stroke="#2a2d33" stroke-width="2"/>
+  <rect x="80" y="70" width="1040" height="52" rx="16" fill="#131417"/>
+  <g fill="#3a3e45">
+    <circle cx="120" cy="96" r="7"/>
+    <circle cx="146" cy="96" r="7"/>
+    <circle cx="172" cy="96" r="7"/>
+  </g>
+  <rect x="220" y="84" width="420" height="24" rx="12" fill="#1f2226"/>
+  <!-- Nav -->
+  <rect x="120" y="150" width="960" height="36" rx="4" fill="#1a1c20"/>
+  <rect x="132" y="160" width="10" height="16" fill="#ff0000"/>
+  <rect x="146" y="156" width="10" height="24" fill="#00ff00"/>
+  <rect x="160" y="162" width="10" height="12" fill="#0000ff"/>
+  <rect x="180" y="162" width="160" height="12" rx="3" fill="#e8e9eb" fill-opacity="0.7"/>
+  <g fill="#a5aab2" fill-opacity="0.7">
+    <rect x="720" y="162" width="70" height="12" rx="3"/>
+    <rect x="806" y="162" width="80" height="12" rx="3"/>
+    <rect x="902" y="162" width="70" height="12" rx="3"/>
+  </g>
+  <!-- Hero copy -->
+  <rect x="140" y="230" width="90" height="10" rx="3" fill="#00ff00" fill-opacity="0.7"/>
+  <rect x="140" y="260" width="420" height="36" rx="6" fill="#e8e9eb"/>
+  <rect x="140" y="310" width="280" height="16" rx="4" fill="#a5aab2" fill-opacity="0.55"/>
+  <rect x="140" y="350" width="460" height="10" rx="3" fill="#80858d" fill-opacity="0.5"/>
+  <rect x="140" y="368" width="400" height="10" rx="3" fill="#80858d" fill-opacity="0.35"/>
+  <rect x="140" y="410" width="150" height="36" rx="6" fill="#e8e9eb"/>
+  <rect x="304" y="410" width="120" height="36" rx="6" fill="none" stroke="#3b3f46" stroke-width="2"/>
+  <!-- Profile frame -->
+  <rect x="760" y="220" width="280" height="340" rx="8" fill="#131417" stroke="#2a2d33"/>
+  <circle cx="900" cy="360" r="54" fill="#2c3036"/>
+  <path d="M820 560c0-52 36-90 80-90s80 38 80 90z" fill="#2c3036"/>
+  <!-- Cards -->
+  <g>
+    <rect x="140" y="520" width="280" height="220" rx="10" fill="#1f2226" stroke="#2a2d33"/>
+    <rect x="140" y="520" width="56" height="3" fill="#ff0000"/>
+    <rect x="160" y="690" width="160" height="14" rx="3" fill="#e8e9eb" fill-opacity="0.8"/>
+    <rect x="440" y="520" width="280" height="220" rx="10" fill="#1f2226" stroke="#2a2d33"/>
+    <rect x="440" y="520" width="56" height="3" fill="#00ff00"/>
+    <rect x="460" y="690" width="160" height="14" rx="3" fill="#e8e9eb" fill-opacity="0.8"/>
+    <rect x="740" y="520" width="280" height="220" rx="10" fill="#1f2226" stroke="#2a2d33"/>
+    <rect x="740" y="520" width="56" height="3" fill="#0000ff"/>
+    <rect x="760" y="690" width="160" height="14" rx="3" fill="#e8e9eb" fill-opacity="0.8"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <!-- Decorative line geometry for the hero background. Low contrast by design. -->
+  <g stroke="#ffffff" stroke-opacity="0.09" stroke-width="1">
+    <circle cx="400" cy="400" r="320"/>
+    <circle cx="400" cy="400" r="240" stroke-dasharray="2 10"/>
+    <circle cx="400" cy="400" r="150"/>
+    <polygon points="400,120 642,260 642,540 400,680 158,540 158,260"/>
+    <line x1="400" y1="40" x2="400" y2="120"/>
+    <line x1="400" y1="680" x2="400" y2="760"/>
+    <line x1="40" y1="400" x2="250" y2="400"/>
+    <line x1="550" y1="400" x2="760" y2="400"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.16" stroke-width="1">
+    <path d="M380 400h40M400 380v40"/>
+    <path d="M120 120h28M120 120v28M680 680h-28M680 680v-28"/>
+  </g>
+  <!-- Single accent arcs -->
+  <path d="M400 80a320 320 0 0 1 277 160" stroke="#ff0000" stroke-opacity="0.55" stroke-width="1.5"/>
+  <path d="M250 400a150 150 0 0 1 44-106" stroke="#0000ff" stroke-opacity="0.9" stroke-width="2"/>
+  <g fill="#ffffff" fill-opacity="0.22">
+    <circle cx="642" cy="260" r="3"/>
+    <circle cx="158" cy="540" r="3"/>
+    <circle cx="400" cy="680" r="3"/>
+  </g>
+  <circle cx="677" cy="240" r="3.5" fill="#ff0000" fill-opacity="0.8"/>
+</svg>

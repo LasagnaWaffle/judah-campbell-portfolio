@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Judah Campbell | Game Developer &amp; Software Developer</title>
+  <meta name="description" content="Portfolio of Judah Campbell, a game developer and software developer building gameplay systems, tools, and interactive experiences.">
+  <meta name="theme-color" content="#0f1012">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Social preview. og:image must be an absolute URL. TODO: update if your GitHub Pages URL differs. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Judah Campbell">
+  <meta property="og:title" content="Judah Campbell | Game Developer &amp; Software Developer">
+  <meta property="og:description" content="Game development and software projects by Judah Campbell.">
+  <meta property="og:image" content="https://lasagnawaffle.github.io/judah-campbell-portfolio/assets/images/og-image.png">
+  <meta property="og:image:alt" content="Judah Campbell, Game Developer and Software Developer">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/projects-data.js" defer></script>
+  <script src="assets/js/project-cards.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/animations.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <!-- TODO: REPLACE WITH YOUR INFORMATION (name appears in the nav on every page) -->
+      <a class="nav__brand" href="index.html">
+        <span class="nav__brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Judah Campbell</span>
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-bars" aria-hidden="true"></span>
+        <span class="nav__toggle-text">Menu</span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav__link" href="projects.html">Projects</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="resume.html">Resume</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="page-main">
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="bg-layers" aria-hidden="true">
+        <div class="bg-layer bg-grid" data-parallax="0.28"></div>
+        <div class="bg-layer bg-geometry" data-parallax="0.16"></div>
+        <div class="bg-layer bg-glow bg-glow--red" data-parallax="0.08"></div>
+        <div class="bg-layer bg-glow bg-glow--blue" data-parallax="0.2"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <!-- TODO: REPLACE WITH YOUR INFORMATION (availability, or delete this line) -->
+          <p class="eyebrow eyebrow--green todo">Open to [internship / full-time] game development roles</p>
+          <!-- TODO: REPLACE WITH YOUR INFORMATION (name) -->
+          <h1 class="hero__name" id="hero-title">Judah Campbell</h1>
+          <p class="hero__title">
+            <span>Game Developer</span>
+            <span class="hero__title-sep" aria-hidden="true"></span>
+            <span>Software Developer</span>
+          </p>
+          <!-- TODO: REPLACE WITH YOUR INFORMATION (1-2 sentence introduction) -->
+          <p class="hero__intro todo">
+            I build games and software, with a focus on gameplay programming, clean engineering,
+            and interactive experiences that feel good to play. Replace this sample introduction
+            with your own.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="projects.html">
+              View projects
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+            <a class="btn btn--secondary" href="resume.html">Resume</a>
+          </div>
+          <!-- TODO: REPLACE WITH YOUR INFORMATION (short facts; edit or delete) -->
+          <ul class="hero__meta todo" aria-label="Quick facts">
+            <li>[City, State]</li>
+            <li>Unity / C# / C++</li>
+            <li>[School or current role]</li>
+          </ul>
+        </div>
+
+        <!-- TODO: REPLACE WITH YOUR INFORMATION (profile photo; see README) -->
+        <figure class="hero__media profile-frame">
+          <img class="profile-frame__img" src="assets/images/profile/profile-placeholder.svg" width="800" height="1000" alt="Placeholder for Judah Campbell's profile photo" fetchpriority="high">
+          <span class="scan-line" aria-hidden="true"></span>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ Featured projects ============ -->
+    <section class="section" aria-labelledby="featured-title" data-reveal>
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <p class="eyebrow eyebrow--red"><span class="eyebrow__index">01</span> Featured work</p>
+            <h2 id="featured-title">Featured projects</h2>
+            <p class="lead">A few highlights. Flip a card to see details, technologies, and links.</p>
+          </div>
+          <a class="link-arrow" href="projects.html">
+            View all projects
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+
+        <!-- Cards are generated from assets/js/projects-data.js (projects with featured: true). -->
+        <div class="project-grid" data-project-grid="featured">
+          <noscript><p class="project-grid__empty">Project cards need JavaScript. <a href="projects.html">Open the Projects page</a> or visit <a href="https://github.com/LasagnaWaffle">my GitHub profile</a>.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Skills ============ -->
+    <section class="section section--alt" aria-labelledby="skills-title" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--blue"><span class="eyebrow__index">02</span> Toolkit</p>
+          <h2 id="skills-title">Skills overview</h2>
+          <p class="lead">Languages, engines, and tools I work with.</p>
+        </div>
+
+        <!-- TODO: REPLACE WITH YOUR INFORMATION. These are sample skills; keep only what you can speak to in an interview. -->
+        <div class="card-grid todo">
+          <article class="card skill-group" data-accent="red">
+            <h3>Game development</h3>
+            <p>Engines and gameplay programming.</p>
+            <ul class="tag-list" aria-label="Game development skills">
+              <li class="tag">Unity</li>
+              <li class="tag">C#</li>
+              <li class="tag">C++</li>
+            </ul>
+          </article>
+          <article class="card skill-group" data-accent="green">
+            <h3>Software</h3>
+            <p>Application code, data, and architecture.</p>
+            <ul class="tag-list" aria-label="Software skills">
+              <li class="tag">C#</li>
+              <li class="tag">C++</li>
+              <li class="tag">SQL &amp; databases</li>
+            </ul>
+          </article>
+          <article class="card skill-group" data-accent="blue">
+            <h3>Web</h3>
+            <p>Front-end development for the browser.</p>
+            <ul class="tag-list" aria-label="Web skills">
+              <li class="tag">JavaScript</li>
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+            </ul>
+          </article>
+          <article class="card skill-group" data-accent="green">
+            <h3>Tools &amp; workflow</h3>
+            <p>Version control and collaboration.</p>
+            <ul class="tag-list" aria-label="Tools and workflow skills">
+              <li class="tag">Git</li>
+              <li class="tag">GitHub</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact call to action ============ -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="bg-layers" aria-hidden="true">
+        <div class="bg-layer bg-grid" data-parallax="0.12"></div>
+        <div class="bg-layer bg-glow bg-glow--green" data-parallax="0.06"></div>
+      </div>
+      <div class="container">
+        <div class="cta__panel" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--green"><span class="eyebrow__index">03</span> Contact</p>
+            <h2 id="cta-title">Let's talk about your team</h2>
+            <p>I'm interested in game development and software roles. If you're hiring or want to talk about a project, I'd be glad to hear from you.</p>
+          </div>
+          <!-- TODO: REPLACE WITH YOUR INFORMATION (email, LinkedIn, GitHub) -->
+          <div class="cta__actions">
+            <a class="btn btn--primary" href="mailto:your.email@example.com">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 5 6-5"/></svg>
+              Email me
+            </a>
+            <a class="btn btn--secondary" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+              LinkedIn<span class="visually-hidden"> (opens in a new tab)</span>
+            </a>
+            <a class="btn btn--secondary" href="https://github.com/LasagnaWaffle" target="_blank" rel="noopener noreferrer">
+              GitHub<span class="visually-hidden"> (opens in a new tab)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <p class="site-footer__name">Judah Campbell</p>
+        <p class="site-footer__meta">&copy; <span data-current-year>2026</span> &middot; Game Developer &amp; Software Developer</p>
+      </div>
+      <!-- TODO: REPLACE WITH YOUR INFORMATION (email, LinkedIn, GitHub) -->
+      <ul class="social-links" aria-label="Contact and profiles">
+        <li><a href="mailto:your.email@example.com"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 5 6-5"/></svg>Email</a></li>
+        <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M0 1.15C0 .51.53 0 1.18 0h13.64C15.47 0 16 .51 16 1.15v13.7c0 .64-.53 1.15-1.18 1.15H1.18C.53 16 0 15.49 0 14.85V1.15zm4.94 12.24V6.17h-2.4v7.22h2.4zM3.74 5.18c.84 0 1.36-.55 1.36-1.25-.02-.7-.52-1.25-1.34-1.25-.82 0-1.36.54-1.36 1.25 0 .7.52 1.25 1.33 1.25h.01zm4.91 8.21V9.36c0-.22.02-.43.08-.59.17-.43.57-.88 1.23-.88.87 0 1.22.66 1.22 1.64v3.86h2.4V9.25c0-2.22-1.18-3.25-2.76-3.25-1.27 0-1.85.7-2.17 1.19V6.17h-2.4c.03.68 0 7.22 0 7.22h2.4z"/></svg>LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+        <li><a href="https://github.com/LasagnaWaffle" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+      </ul>
+      <a class="site-footer__top" href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+</body>
+</html>

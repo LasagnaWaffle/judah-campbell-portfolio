@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Judah Campbell</title>
+  <meta name="description" content="Game development and software projects by Judah Campbell, including gameplay prototypes, tools, and web projects.">
+  <meta name="theme-color" content="#0f1012">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Judah Campbell">
+  <meta property="og:title" content="Projects | Judah Campbell">
+  <meta property="og:description" content="Game development and software projects by Judah Campbell.">
+  <meta property="og:image" content="https://lasagnawaffle.github.io/judah-campbell-portfolio/assets/images/og-image.png">
+  <meta property="og:image:alt" content="Judah Campbell, Game Developer and Software Developer">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/projects-data.js" defer></script>
+  <script src="assets/js/project-cards.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/animations.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav__brand" href="index.html">
+        <span class="nav__brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Judah Campbell</span>
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-bars" aria-hidden="true"></span>
+        <span class="nav__toggle-text">Menu</span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="projects.html" aria-current="page">Projects</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="resume.html">Resume</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="page-main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="bg-layers" aria-hidden="true">
+        <div class="bg-layer bg-grid" data-parallax="0.25"></div>
+        <div class="bg-layer bg-glow bg-glow--red" data-parallax="0.1"></div>
+      </div>
+      <div class="container page-hero__content">
+        <p class="eyebrow eyebrow--red">Portfolio</p>
+        <h1 id="page-title">Projects</h1>
+        <p class="lead">Games, prototypes, tools, and software I've built. Each card flips to show a summary, the technologies used, and links to code, demos, or a full write-up.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="All projects">
+      <div class="container">
+        <p class="project-hint">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M2.5 8a5.5 5.5 0 0 1 9.4-3.9L13.5 5.5"/><path d="M13.5 2v3.5H10"/><path d="M13.5 8a5.5 5.5 0 0 1-9.4 3.9L2.5 10.5"/><path d="M2.5 14v-3.5H6"/></svg>
+          Click or tap a card to flip it
+        </p>
+
+        <!-- Cards are generated from assets/js/projects-data.js, in the order listed there. -->
+        <div class="project-grid" data-project-grid="all">
+          <noscript><p class="project-grid__empty">The project gallery needs JavaScript. You can browse my code on <a href="https://github.com/LasagnaWaffle">GitHub</a> or view my <a href="resume.html">resume</a>.</p></noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <p class="site-footer__name">Judah Campbell</p>
+        <p class="site-footer__meta">&copy; <span data-current-year>2026</span> &middot; Game Developer &amp; Software Developer</p>
+      </div>
+      <!-- TODO: REPLACE WITH YOUR INFORMATION (email, LinkedIn, GitHub) -->
+      <ul class="social-links" aria-label="Contact and profiles">
+        <li><a href="mailto:your.email@example.com"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 5 6-5"/></svg>Email</a></li>
+        <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M0 1.15C0 .51.53 0 1.18 0h13.64C15.47 0 16 .51 16 1.15v13.7c0 .64-.53 1.150-1.18 1.15H1.18C.53 16 0 15.49 0 14.85V1.15zm4.94 12.24V6.17h-2.4v7.22h2.4zM3.74 5.18c.84 0 1.36-.55 1.36-1.250-.02-.7-.52-1.25-1.34-1.25-.82 0-1.36.54-1.36 1.25 0 .7.52 1.25 1.33 1.25h.01zm4.91 8.21V9.36c0-.22.02-.43.08-.59.17-.43.57-.88 1.230-.88.87 0 1.220.66 1.220 1.64v3.86h2.4V9.25c0-2.22-1.18-3.25-2.76-3.25-1.27 0-1.85.7-2.17 1.19V6.17h-2.4c.03.68 0 7.22 0 7.22h2.4z"/></svg>LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+        <li><a href="https://github.com/LasagnaWaffle" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.130-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+      </ul>
+      <a class="site-footer__top" href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+</body>
+</html>

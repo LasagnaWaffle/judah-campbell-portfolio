@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- SAMPLE IMAGE. TODO: REPLACE WITH A REAL SCREENSHOT (1200x900 WebP/JPG). -->
+  <defs>
+    <pattern id="cells" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="#121316"/>
+  <rect width="1200" height="900" fill="url(#cells)"/>
+  <!-- Corridors -->
+  <g stroke="#3a3f46" stroke-width="22" stroke-linecap="square" fill="none">
+    <path d="M300 240H600V450H900"/>
+    <path d="M600 450V690H360"/>
+    <path d="M900 450V240"/>
+    <path d="M900 450V660"/>
+  </g>
+  <!-- Rooms -->
+  <g fill="#23262b" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2">
+    <rect x="180" y="150" width="240" height="180"/>
+    <rect x="510" y="360" width="180" height="180"/>
+    <rect x="810" y="150" width="210" height="150"/>
+    <rect x="240" y="600" width="240" height="180"/>
+    <rect x="810" y="600" width="210" height="150"/>
+  </g>
+  <!-- Start and exit -->
+  <rect x="510" y="360" width="180" height="180" fill="none" stroke="#00ff00" stroke-width="3" stroke-opacity="0.9"/>
+  <circle cx="600" cy="450" r="12" fill="#00ff00"/>
+  <rect x="900" y="660" width="30" height="30" fill="#e8e9eb" fill-opacity="0.7"/>
+  <text x="40" y="860" font-family="ui-monospace, Consolas, monospace" font-size="26" fill="#ffffff" fill-opacity="0.35" letter-spacing="4">SAMPLE IMAGE</text>
+</svg>

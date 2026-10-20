@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- SAMPLE IMAGE. TODO: REPLACE WITH A REAL SCREENSHOT (1200x900 WebP/JPG). -->
+  <rect width="1200" height="900" fill="#111215"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2">
+    <circle cx="600" cy="450" r="360"/>
+    <circle cx="600" cy="450" r="250"/>
+    <circle cx="600" cy="450" r="140"/>
+    <path d="M600 60v780M210 450h780"/>
+  </g>
+  <path d="M600 450L855 195A360 360 0 0 1 960 450z" fill="#ff0000" fill-opacity="0.12"/>
+  <g fill="#e8e9eb" fill-opacity="0.8">
+    <circle cx="760" cy="320" r="9"/>
+    <circle cx="430" cy="580" r="9"/>
+    <circle cx="690" cy="640" r="9"/>
+  </g>
+  <circle cx="600" cy="450" r="14" fill="#ff0000"/>
+  <text x="40" y="860" font-family="ui-monospace, Consolas, monospace" font-size="26" fill="#ffffff" fill-opacity="0.35" letter-spacing="4">SAMPLE IMAGE</text>
+</svg>

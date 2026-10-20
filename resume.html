@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume | Judah Campbell</title>
+  <meta name="description" content="Resume of Judah Campbell, a game developer and software developer. Education, skills, experience, and selected projects.">
+  <meta name="theme-color" content="#0f1012">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Judah Campbell">
+  <meta property="og:title" content="Resume | Judah Campbell">
+  <meta property="og:description" content="Education, skills, experience, and selected projects.">
+  <meta property="og:image" content="https://lasagnawaffle.github.io/judah-campbell-portfolio/assets/images/og-image.png">
+  <meta property="og:image:alt" content="Judah Campbell, Game Developer and Software Developer">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/projects-data.js" defer></script>
+  <script src="assets/js/project-cards.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/animations.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav__brand" href="index.html">
+        <span class="nav__brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Judah Campbell</span>
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-bars" aria-hidden="true"></span>
+        <span class="nav__toggle-text">Menu</span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="projects.html">Projects</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="resume.html" aria-current="page">Resume</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="page-main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="bg-layers" aria-hidden="true">
+        <div class="bg-layer bg-grid" data-parallax="0.22"></div>
+        <div class="bg-layer bg-glow bg-glow--green" data-parallax="0.1"></div>
+      </div>
+      <div class="container page-hero__content">
+        <p class="eyebrow eyebrow--green">Resume</p>
+        <h1 id="page-title">Resume</h1>
+        <p class="lead">A concise overview of education, skills, experience, and selected work. Keep this page aligned with the downloadable PDF.</p>
+        <div class="page-hero__actions">
+          <!-- TODO: REPLACE WITH YOUR INFORMATION. Swap assets/documents/resume.pdf for your real resume. The current file is a labeled placeholder. -->
+          <a class="btn btn--primary" href="assets/documents/resume.pdf" data-resume-download download="Judah-Campbell-Resume.pdf" aria-describedby="resume-pdf-note">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M8 2v8M5 7l3 3 3-3"/><path d="M3 13.5h10"/></svg>
+            Download PDF
+          </a>
+          <a class="btn btn--secondary" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <aside class="split__sticky">
+          <div class="resume-download">
+            <p id="resume-pdf-note" class="todo-note">
+              <strong>TODO: REPLACE WITH YOUR INFORMATION</strong><br>
+              The file at <code>assets/documents/resume.pdf</code> is a placeholder, not a real resume. Replace it with your PDF. If the file is missing, the download button is disabled instead of linking to a broken URL.
+            </p>
+            <a class="btn btn--primary" href="assets/documents/resume.pdf" data-resume-download download="Judah-Campbell-Resume.pdf">Download PDF</a>
+          </div>
+        </aside>
+
+        <div>
+          <section class="resume-section" aria-labelledby="intro-title">
+            <h2 class="resume-section__title" id="intro-title" data-accent="green">Introduction</h2>
+            <!-- TODO: REPLACE WITH YOUR INFORMATION (2-3 sentences matching your resume summary) -->
+            <p class="todo">Sample introduction. Write a short professional summary that matches the PDF: the kind of roles you want, the work you enjoy (gameplay systems, tools, software), and the stack you use most often.</p>
+          </section>
+
+          <section class="resume-section" aria-labelledby="education-title">
+            <h2 class="resume-section__title" id="education-title" data-accent="blue">Education</h2>
+            <!-- TODO: REPLACE WITH YOUR INFORMATION. Do not leave the brackets in. -->
+            <ul class="entry-list todo">
+              <li class="entry" data-accent="blue">
+                <div class="entry__header">
+                  <h3 class="entry__title">[Degree, e.g. B.S. in Computer Science]</h3>
+                  <span class="entry__meta">[Start year] to [End year or Expected]</span>
+                </div>
+                <p class="entry__org">[University or college name]</p>
+                <ul>
+                  <li>[Optional: concentration, relevant coursework, GPA]</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+
+          <section class="resume-section" aria-labelledby="skills-title">
+            <h2 class="resume-section__title" id="skills-title" data-accent="red">Technical skills</h2>
+            <!-- TODO: REPLACE WITH YOUR INFORMATION. Sample skills; keep only what you can discuss in an interview. -->
+            <dl class="skill-table todo">
+              <div>
+                <dt>Game development</dt>
+                <dd>Unity, C#, C++</dd>
+              </div>
+              <div>
+                <dt>Software</dt>
+                <dd>C#, C++, SQL and databases</dd>
+              </div>
+              <div>
+                <dt>Web</dt>
+                <dd>JavaScript, HTML, CSS</dd>
+              </div>
+              <div>
+                <dt>Tools</dt>
+                <dd>Git, GitHub</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="resume-section" aria-labelledby="experience-title">
+            <h2 class="resume-section__title" id="experience-title" data-accent="green">Experience</h2>
+            <!-- TODO: REPLACE WITH YOUR INFORMATION. Do not invent jobs. Delete this block if you have none yet. -->
+            <ul class="entry-list todo">
+              <li class="entry" data-accent="green">
+                <div class="entry__header">
+                  <h3 class="entry__title">[Role title]</h3>
+                  <span class="entry__meta">[Start] to [End or Present]</span>
+                </div>
+                <p class="entry__org">[Company, studio, lab, or organization]</p>
+                <ul>
+                  <li>[What you built or owned, in one concrete sentence]</li>
+                  <li>[A second bullet: technologies, scope, or outcome]</li>
+                </ul>
+              </li>
+              <li class="entry" data-accent="green">
+                <div class="entry__header">
+                  <h3 class="entry__title">[Optional second role]</h3>
+                  <span class="entry__meta">[Dates]</span>
+                </div>
+                <p class="entry__org">[Organization]</p>
+                <ul>
+                  <li>[Contribution]</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+
+          <section class="resume-section" aria-labelledby="projects-title">
+            <h2 class="resume-section__title" id="projects-title" data-accent="blue">Projects</h2>
+            <p class="text-muted">Pulled from <code>assets/js/projects-data.js</code> so this list stays in sync with the Projects page. Sample entries are labeled.</p>
+            <ul class="project-list" data-project-list>
+              <noscript><li>Project list needs JavaScript. See <a href="projects.html">Projects</a> or <a href="https://github.com/LasagnaWaffle">GitHub</a>.</li></noscript>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <p class="site-footer__name">Judah Campbell</p>
+        <p class="site-footer__meta">&copy; <span data-current-year>2026</span> &middot; Game Developer &amp; Software Developer</p>
+      </div>
+      <!-- TODO: REPLACE WITH YOUR INFORMATION (email, LinkedIn, GitHub) -->
+      <ul class="social-links" aria-label="Contact and profiles">
+        <li><a href="mailto:your.email@example.com"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 5 6-5"/></svg>Email</a></li>
+        <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M0 1.15C0 .51.53 0 1.18 0h13.64C15.47 0 16 .51 16 1.15v13.7c0 .64-.53 1.15-1.18 1.15H1.18C.53 16 0 15.49 0 14.85V1.15zm4.94 12.24V6.17h-2.4v7.22h2.4zM3.74 5.18c.84 0 1.36-.55 1.36-1.25-.02-.7-.52-1.25-1.34-1.25-.82 0-1.36.54-1.36 1.25 0 .7.52 1.25 1.33 1.25h.01zm4.91 8.21V9.36c0-.22.02-.43.08-.59.17-.43.57-.88 1.23-.88.87 0 1.22.66 1.22 1.64v3.86h2.4V9.25c0-2.22-1.18-3.25-2.76-3.25-1.27 0-1.85.7-2.17 1.19V6.17h-2.4c.03.68 0 7.22 0 7.22h2.4z"/></svg>LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+        <li><a href="https://github.com/LasagnaWaffle" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+      </ul>
+      <a class="site-footer__top" href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+</body>
+</html>
